@@ -19,7 +19,7 @@ API_HASH = '9f4461079f30757ca0a4c23e14bd523f'
   ID = ""
   go = True
   while go:
-    token = input("input you're bot TOKEN:")
+    token = input("7218686976:AAEUzTUoUBQsohKwDRM8-mMwcX24Cw4GrOk")
     get = Bot(token,"getme",{})
     if get["ok"]:
       out = out+"\n"+"TOKEN = '{}'\nBOT_ID = TOKEN.split(':')[0]".format(token)
@@ -29,7 +29,7 @@ API_HASH = '9f4461079f30757ca0a4c23e14bd523f'
     else:
       print("TOKEN is invalid, Try again")
 
-  sudo = input("input you're ID:")
+  sudo = input("815010872")
   out = out+"\n"+"SUDO = {}".format(sudo)
 
   f = open("config.py","w+") 
